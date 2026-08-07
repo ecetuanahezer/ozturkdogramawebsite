@@ -1,15 +1,15 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="tr">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Öztürk Doğrama | Handcrafted Wooden Doors & Cupboards</title>
-<meta name="description" content="Öztürk Doğrama designs and builds custom wooden doors and fitted cupboards. Traditional craftsmanship, modern finishes, built to last a lifetime.">
+<title id="page-title">Öztürk Doğrama | El Yapımı Ahşap Kapı ve Dolaplar</title>
+<meta id="page-desc" name="description" content="Öztürk Doğrama, Bartın merkezli atölyesinde özel ahşap kapı ve dolaplar tasarlar ve üretir. Geleneksel ustalık, modern kaplamalar, nesiller boyu dayanan ürünler.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body data-page="home">
 
 <header class="site-header">
   <nav class="nav">
@@ -18,13 +18,14 @@
       Öztürk Doğrama
     </a>
     <div class="nav-links">
-      <a href="index.html" class="active">Home</a>
-      <a href="products.html">Products</a>
-      <a href="about.html">About</a>
-      <a href="contact.html">Contact</a>
+      <a href="index.html" class="active" data-i18n="common.nav.home">Ana Sayfa</a>
+      <a href="products.html" data-i18n="common.nav.products">Ürünler</a>
+      <a href="about.html" data-i18n="common.nav.about">Hakkımızda</a>
+      <a href="contact.html" data-i18n="common.nav.contact">İletişim</a>
     </div>
     <div class="nav-actions">
-      <a href="contact.html" class="btn btn-secondary">Get a Quote</a>
+      <button id="lang-toggle" class="lang-toggle" aria-label="Switch language">EN</button>
+      <a href="contact.html" class="btn btn-secondary" data-i18n="common.nav.cta">Teklif Al</a>
       <button class="nav-toggle" aria-label="Menu">
         <span></span><span></span><span></span>
       </button>
@@ -38,24 +39,24 @@
   <section class="hero">
     <div class="container hero-grid">
       <div>
-        <div class="hero-badge">🪵 Custom Joinery, Since Day One</div>
-        <h1>Wooden doors and&nbsp;cupboards, built to last generations.</h1>
-        <p class="lead">Öztürk Doğrama designs and hand-builds custom doors and fitted cupboards for homes that want real wood, honest craftsmanship, and a finish that gets better with age.</p>
+        <div class="hero-badge" data-i18n="home.hero.badge">🪵 Baştan Sona Usta İşi Doğrama</div>
+        <h1 data-i18n-html="home.hero.h1">Nesiller boyu dayanacak ahşap&nbsp;kapı ve dolaplar.</h1>
+        <p class="lead" data-i18n="home.hero.lead">Öztürk Doğrama; gerçek ahşabı, dürüst işçiliği ve zamanla güzelleşen bir görünümü tercih eden evler için özel kapı ve dolapları elde tasarlayıp üretir.</p>
         <div class="hero-ctas">
-          <a href="contact.html" class="btn btn-primary">Get a Free Quote</a>
-          <a href="products.html" class="btn btn-secondary">View Our Work</a>
+          <a href="contact.html" class="btn btn-primary" data-i18n="home.hero.cta1">Ücretsiz Teklif Al</a>
+          <a href="products.html" class="btn btn-secondary" data-i18n="home.hero.cta2">Çalışmalarımızı İnceleyin</a>
         </div>
-        <p class="hero-meta">Solid timber · Made to measure · Free on-site consultation</p>
+        <p class="hero-meta" data-i18n="home.hero.meta2">Masif ahşap · Ölçüye özel üretim · Yerinde ücretsiz keşif</p>
       </div>
       <div class="hero-visual">
         <div class="wood-lines"></div>
-        <div class="float-chip chip-1">🔨 <span>Handmade joinery</span></div>
-        <div class="float-chip chip-2">🌳 <span>Solid timber only</span></div>
+        <div class="float-chip chip-1">🔨 <span data-i18n="home.hero.chip1">El işçiliği doğrama</span></div>
+        <div class="float-chip chip-2">🌳 <span data-i18n="home.hero.chip2">Sadece masif ahşap</span></div>
         <div class="tag-card">
           <div class="icon">🚪</div>
           <div>
-            <strong>Featured: Oak Panel Door</strong>
-            <span>Custom-fit · Natural oil finish</span>
+            <strong data-i18n="home.hero.tagTitle">Öne Çıkan: Meşe Panel Kapı</strong>
+            <span data-i18n="home.hero.tagSub">Ölçüye özel · Doğal yağ cila</span>
           </div>
         </div>
       </div>
@@ -65,10 +66,10 @@
   <!-- STATS STRIP -->
   <div class="container">
     <div class="stats-strip">
-      <div class="stat"><strong>15+</strong><span>Years of craftsmanship</span></div>
-      <div class="stat"><strong>400+</strong><span>Doors & cupboards built</span></div>
-      <div class="stat"><strong>100%</strong><span>Solid wood materials</span></div>
-      <div class="stat"><strong>4.9★</strong><span>Average client rating</span></div>
+      <div class="stat"><strong>15+</strong><span data-i18n="home.stats.label1">Yıllık Ustalık</span></div>
+      <div class="stat"><strong>400+</strong><span data-i18n="home.stats.label2">Üretilen Kapı ve Dolap</span></div>
+      <div class="stat"><strong data-i18n="home.stats.value3">%100</strong><span data-i18n="home.stats.label3">Masif Ahşap Malzeme</span></div>
+      <div class="stat"><strong>4.9★</strong><span data-i18n="home.stats.label4">Ortalama Müşteri Puanı</span></div>
     </div>
   </div>
 
@@ -76,30 +77,30 @@
   <section>
     <div class="container">
       <div class="section-head">
-        <div class="eyebrow">What We Do</div>
-        <h2>Two crafts. One standard of quality.</h2>
-        <p>Every piece is measured, designed, and joined by hand in our workshop — no flat-pack, no shortcuts.</p>
+        <div class="eyebrow" data-i18n="home.features.eyebrow">Ne Yapıyoruz</div>
+        <h2 data-i18n="home.features.h2">İki zanaat. Tek kalite standardı.</h2>
+        <p data-i18n="home.features.p">Her parça atölyemizde elle ölçülür, tasarlanır ve birleştirilir — hazır kesim yok, kısayol yok.</p>
       </div>
       <div class="grid-4">
         <div class="card">
           <div class="icon">🚪</div>
-          <h3>Custom Doors</h3>
-          <p>Interior, entrance, and panel doors built to your exact opening and style.</p>
+          <h3 data-i18n="home.features.card1.title">Özel Kapılar</h3>
+          <p data-i18n="home.features.card1.desc">Ölçünüze ve tarzınıza uygun iç mekan, giriş ve panel kapılar.</p>
         </div>
         <div class="card">
           <div class="icon">🗄️</div>
-          <h3>Fitted Cupboards</h3>
-          <p>Kitchen, wardrobe, and storage cupboards designed around your space.</p>
+          <h3 data-i18n="home.features.card2.title">Ölçüye Özel Dolaplar</h3>
+          <p data-i18n="home.features.card2.desc">Mekanınıza özel tasarlanan mutfak, gardırop ve depolama dolapları.</p>
         </div>
         <div class="card">
           <div class="icon">🛠️</div>
-          <h3>Restoration</h3>
-          <p>Repair and refinish existing wooden doors and cabinetry to like-new condition.</p>
+          <h3 data-i18n="home.features.card3.title">Restorasyon</h3>
+          <p data-i18n="home.features.card3.desc">Mevcut ahşap kapı ve dolaplarınızı yenisi gibi onarıp yeniliyoruz.</p>
         </div>
         <div class="card">
           <div class="icon">📐</div>
-          <h3>Free Consultation</h3>
-          <p>On-site measuring and design advice before you commit to anything.</p>
+          <h3 data-i18n="home.features.card4.title">Ücretsiz Keşif</h3>
+          <p data-i18n="home.features.card4.desc">Karar vermeden önce yerinde ölçüm ve tasarım danışmanlığı.</p>
         </div>
       </div>
     </div>
@@ -109,30 +110,30 @@
   <section class="section-alt">
     <div class="container">
       <div class="section-head">
-        <div class="eyebrow">Our Process</div>
-        <h2>From first sketch to final fit</h2>
-        <p>A simple, transparent process so you always know what happens next.</p>
+        <div class="eyebrow" data-i18n="home.process.eyebrow">Çalışma Sürecimiz</div>
+        <h2 data-i18n="home.process.h2">İlk eskizden son montaja</h2>
+        <p data-i18n="home.process.p">Her adımda ne olacağını bilmeniz için basit ve şeffaf bir süreç.</p>
       </div>
       <div class="steps">
         <div class="step">
           <div class="num">01</div>
-          <h3>Consultation</h3>
-          <p>We visit your space, take measurements, and talk through your style and budget.</p>
+          <h3 data-i18n="home.process.step1.title">Keşif</h3>
+          <p data-i18n="home.process.step1.desc">Mekanınızı ziyaret eder, ölçü alır, tarz ve bütçenizi birlikte değerlendiririz.</p>
         </div>
         <div class="step">
           <div class="num">02</div>
-          <h3>Design</h3>
-          <p>You get a detailed proposal with wood type, finish, and pricing before we start.</p>
+          <h3 data-i18n="home.process.step2.title">Tasarım</h3>
+          <p data-i18n="home.process.step2.desc">Başlamadan önce ahşap türü, kaplama ve fiyatlandırmayı içeren detaylı bir teklif alırsınız.</p>
         </div>
         <div class="step">
           <div class="num">03</div>
-          <h3>Craft</h3>
-          <p>Every piece is cut, joined, and finished by hand in our own workshop.</p>
+          <h3 data-i18n="home.process.step3.title">Üretim</h3>
+          <p data-i18n="home.process.step3.desc">Her parça kendi atölyemizde elle kesilir, birleştirilir ve cilalanır.</p>
         </div>
         <div class="step">
           <div class="num">04</div>
-          <h3>Install</h3>
-          <p>We deliver and fit the finished piece, and walk you through the care it needs.</p>
+          <h3 data-i18n="home.process.step4.title">Montaj</h3>
+          <p data-i18n="home.process.step4.desc">Bitmiş ürünü teslim edip monte eder, bakımı hakkında sizi bilgilendiririz.</p>
         </div>
       </div>
     </div>
@@ -142,37 +143,37 @@
   <section>
     <div class="container">
       <div class="section-head">
-        <div class="eyebrow">A Look at the Work</div>
-        <h2>Doors and cupboards, made to measure</h2>
+        <div class="eyebrow" data-i18n="home.productsSection.eyebrow">Çalışmalarımızdan Örnekler</div>
+        <h2 data-i18n="home.productsSection.h2">Ölçüye özel kapı ve dolaplar</h2>
       </div>
       <div class="grid-3">
         <div class="product-card">
-          <div class="ph-image ph-1"><span>Panel Doors</span></div>
+          <div class="ph-image ph-1"><span data-i18n="home.productsSection.card1.title">Panel Kapılar</span></div>
           <div class="body">
-            <h3>Panel Doors</h3>
-            <p>Classic raised or flat panel doors in oak, walnut, or pine.</p>
-            <div class="tag-list"><span>Interior</span><span>Custom size</span></div>
+            <h3 data-i18n="home.productsSection.card1.title">Panel Kapılar</h3>
+            <p data-i18n="home.productsSection.card1.desc">Meşe, ceviz veya çamdan klasik kabartmalı ya da düz panel kapılar.</p>
+            <div class="tag-list"><span data-i18n="home.productsSection.card1.tag1">İç Mekan</span><span data-i18n="home.productsSection.card1.tag2">Özel Ölçü</span></div>
           </div>
         </div>
         <div class="product-card">
-          <div class="ph-image ph-2"><span>Entrance Doors</span></div>
+          <div class="ph-image ph-2"><span data-i18n="home.productsSection.card2.title">Giriş Kapıları</span></div>
           <div class="body">
-            <h3>Entrance Doors</h3>
-            <p>Solid, weather-treated front doors with a statement finish.</p>
-            <div class="tag-list"><span>Exterior</span><span>Weatherproof</span></div>
+            <h3 data-i18n="home.productsSection.card2.title">Giriş Kapıları</h3>
+            <p data-i18n="home.productsSection.card2.desc">Hava koşullarına dayanıklı, dikkat çekici bir görünüme sahip masif giriş kapıları.</p>
+            <div class="tag-list"><span data-i18n="home.productsSection.card2.tag1">Dış Mekan</span><span data-i18n="home.productsSection.card2.tag2">Hava Koşullarına Dayanıklı</span></div>
           </div>
         </div>
         <div class="product-card">
-          <div class="ph-image ph-3"><span>Fitted Cupboards</span></div>
+          <div class="ph-image ph-3"><span data-i18n="home.productsSection.card3.title">Ölçüye Özel Dolaplar</span></div>
           <div class="body">
-            <h3>Fitted Cupboards</h3>
-            <p>Wardrobes and storage built to fit your room exactly.</p>
-            <div class="tag-list"><span>Bedroom</span><span>Storage</span></div>
+            <h3 data-i18n="home.productsSection.card3.title">Ölçüye Özel Dolaplar</h3>
+            <p data-i18n="home.productsSection.card3.desc">Odanıza tam uyum sağlayan gardırop ve depolama üniteleri.</p>
+            <div class="tag-list"><span data-i18n="home.productsSection.card3.tag1">Yatak Odası</span><span data-i18n="home.productsSection.card3.tag2">Depolama</span></div>
           </div>
         </div>
       </div>
       <div style="text-align:center; margin-top:40px;">
-        <a href="products.html" class="btn btn-secondary">See All Products</a>
+        <a href="products.html" class="btn btn-secondary" data-i18n="home.productsSection.seeAll">Tüm Ürünleri Gör</a>
       </div>
     </div>
   </section>
@@ -181,32 +182,32 @@
   <section class="section-alt">
     <div class="container">
       <div class="section-head">
-        <div class="eyebrow">Client Words</div>
-        <h2>Trusted by homeowners who care about wood</h2>
+        <div class="eyebrow" data-i18n="home.testimonials.eyebrow">Müşteri Yorumları</div>
+        <h2 data-i18n="home.testimonials.h2">Ahşaba değer veren ev sahiplerinin güvendiği marka</h2>
       </div>
       <div class="grid-3">
         <div class="testimonial">
           <div class="stars">★★★★★</div>
-          <p>"Our kitchen cupboards were measured and installed within days of the quote. The joinery is flawless."</p>
+          <p data-i18n="home.testimonials.t1.text">"Mutfak dolaplarımız teklif sonrası birkaç gün içinde ölçülüp monte edildi. İşçilik kusursuz."</p>
           <div class="who">
             <div class="avatar">E</div>
-            <div><strong>Elif K.</strong><span>Kitchen cupboards</span></div>
+            <div><strong data-i18n="home.testimonials.t1.name">Elif K.</strong><span data-i18n="home.testimonials.t1.role">Mutfak dolabı</span></div>
           </div>
         </div>
         <div class="testimonial">
           <div class="stars">★★★★★</div>
-          <p>"We wanted a solid oak front door and got exactly that — heavy, warm, and built properly."</p>
+          <p data-i18n="home.testimonials.t2.text">"Masif meşe bir giriş kapısı istedik ve tam istediğimiz gibi aldık — ağır, sıcak ve sağlam işçilikli."</p>
           <div class="who">
             <div class="avatar">M</div>
-            <div><strong>Mehmet A.</strong><span>Entrance door</span></div>
+            <div><strong data-i18n="home.testimonials.t2.name">Mehmet A.</strong><span data-i18n="home.testimonials.t2.role">Giriş kapısı</span></div>
           </div>
         </div>
         <div class="testimonial">
           <div class="stars">★★★★★</div>
-          <p>"Professional from the first visit to install. Fair pricing and honest timelines throughout."</p>
+          <p data-i18n="home.testimonials.t3.text">"İlk ziyaretten kuruluma kadar tamamen profesyoneldi. Adil fiyatlandırma ve dürüst zaman planlaması."</p>
           <div class="who">
             <div class="avatar">S</div>
-            <div><strong>Selin T.</strong><span>Wardrobe fitting</span></div>
+            <div><strong data-i18n="home.testimonials.t3.name">Selin T.</strong><span data-i18n="home.testimonials.t3.role">Gardırop montajı</span></div>
           </div>
         </div>
       </div>
@@ -217,10 +218,10 @@
   <section>
     <div class="container">
       <div class="cta-banner">
-        <h2>Ready to start your project?</h2>
-        <p>Get a free, no-obligation quote for your doors or cupboards. We'll visit, measure, and design around your space.</p>
+        <h2 data-i18n="home.cta.h2">Projenize başlamaya hazır mısınız?</h2>
+        <p data-i18n="home.cta.p">Kapı veya dolaplarınız için ücretsiz, taahhüt gerektirmeyen bir teklif alın. Gelir, ölçüm yapar ve mekanınıza özel tasarlarız.</p>
         <div class="hero-ctas">
-          <a href="contact.html" class="btn btn-primary">Request a Free Quote</a>
+          <a href="contact.html" class="btn btn-primary" data-i18n="home.cta.button">Ücretsiz Teklif İsteyin</a>
         </div>
       </div>
     </div>
@@ -233,30 +234,30 @@
     <div class="footer-grid">
       <div>
         <a href="index.html" class="logo"><span class="logo-mark">Ö</span> Öztürk Doğrama</a>
-        <p>Handcrafted wooden doors and fitted cupboards, built in our workshop and installed with care.</p>
+        <p data-i18n="common.footer.tagline">Bartın'daki atölyemizde elle üretilen, özenle monte edilen ahşap kapı ve dolaplar.</p>
       </div>
       <div class="footer-col">
-        <h4>Site</h4>
-        <a href="index.html">Home</a>
-        <a href="products.html">Products</a>
-        <a href="about.html">About</a>
-        <a href="contact.html">Contact</a>
+        <h4 data-i18n="common.footer.siteHeading">Site</h4>
+        <a href="index.html" data-i18n="common.nav.home">Ana Sayfa</a>
+        <a href="products.html" data-i18n="common.nav.products">Ürünler</a>
+        <a href="about.html" data-i18n="common.nav.about">Hakkımızda</a>
+        <a href="contact.html" data-i18n="common.nav.contact">İletişim</a>
       </div>
       <div class="footer-col">
-        <h4>Products</h4>
-        <a href="products.html">Custom Doors</a>
-        <a href="products.html">Fitted Cupboards</a>
-        <a href="products.html">Restoration</a>
+        <h4 data-i18n="common.footer.productsHeading">Ürünler</h4>
+        <a href="products.html" data-i18n="common.footer.doors">Özel Kapılar</a>
+        <a href="products.html" data-i18n="common.footer.cupboards">Ölçüye Özel Dolaplar</a>
+        <a href="products.html" data-i18n="common.footer.restoration">Restorasyon</a>
       </div>
       <div class="footer-col">
-        <h4>Contact</h4>
+        <h4 data-i18n="common.footer.contactHeading">İletişim</h4>
         <a href="tel:+900000000000">+90 000 000 00 00</a>
         <a href="mailto:info@ozturkdograma.com">info@ozturkdograma.com</a>
-        <a href="contact.html">Workshop address →</a>
+        <a href="contact.html" data-i18n="common.footer.addressLink">Atölye adresi →</a>
       </div>
     </div>
     <div class="footer-bottom">
-      <span>© 2026 Öztürk Doğrama. All rights reserved.</span>
+      <span data-i18n="common.footer.rights">© 2026 Öztürk Doğrama. Tüm hakları saklıdır.</span>
       <div class="social-row">
         <a href="#" aria-label="Instagram">IG</a>
         <a href="#" aria-label="Facebook">FB</a>
@@ -266,6 +267,7 @@
   </div>
 </footer>
 
+<script src="translations.js"></script>
 <script src="script.js"></script>
 </body>
 </html>

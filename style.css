@@ -180,6 +180,30 @@ header.site-header {
   gap: 14px;
 }
 
+.lang-toggle {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 42px;
+  height: 34px;
+  padding: 0 12px;
+  border-radius: 100px;
+  border: 1px solid var(--line);
+  background: #fff;
+  color: var(--ink-soft);
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  cursor: pointer;
+  transition: border-color 0.15s ease, color 0.15s ease, transform 0.15s ease;
+}
+
+.lang-toggle:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+  transform: translateY(-1px);
+}
+
 .nav-toggle {
   display: none;
   background: none;
