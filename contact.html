@@ -4,17 +4,19 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title id="page-title">İletişim | Öztürk Doğrama</title>
-<meta id="page-desc" name="description" content="Bartın merkezli Öztürk Doğrama'dan özel ahşap kapı ve dolaplarınız için ücretsiz teklif alın. Telefon, e-posta veya formla bize ulaşın.">
+<meta id="page-desc" name="description" content="Bartın merkezli Öztürk Doğrama'ya özel ahşap kapı, dolap ve daha fazlası için ulaşın. Telefon, e-posta veya formla bize yazın.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
+<link rel="icon" type="image/png" href="favicon.png">
+<link rel="apple-touch-icon" href="favicon-180.png">
 </head>
 <body data-page="contact">
 
 <header class="site-header">
   <nav class="nav">
     <a href="index.html" class="logo">
-      <span class="logo-mark">Ö</span>
+      <img src="logo-icon.png" alt="Öztürk Doğrama" class="logo-mark">
       Öztürk Doğrama
     </a>
     <div class="nav-links">
@@ -25,7 +27,7 @@
     </div>
     <div class="nav-actions">
       <button id="lang-toggle" class="lang-toggle" aria-label="Switch language">EN</button>
-      <a href="contact.html" class="btn btn-secondary" data-i18n="common.nav.cta">Teklif Al</a>
+      <a href="contact.html" class="btn btn-secondary" data-i18n="common.nav.cta">Bize Ulaşın</a>
       <button class="nav-toggle" aria-label="Menu">
         <span></span><span></span><span></span>
       </button>
@@ -49,8 +51,8 @@
 
         <!-- FORM -->
         <div class="form-card">
-          <h3 style="margin-bottom: 6px;" data-i18n="contact.form.heading">Ücretsiz Teklif İsteyin</h3>
-          <p style="font-size: 0.9rem; margin-bottom: 24px;" data-i18n="contact.form.sub">Formu doldurun, ücretsiz yerinde keşif için sizinle iletişime geçelim.</p>
+          <h3 style="margin-bottom: 6px;" data-i18n="contact.form.heading">Proje Talebinizi Gönderin</h3>
+          <p style="font-size: 0.9rem; margin-bottom: 24px;" data-i18n="contact.form.sub">Formu doldurun, projenizi konuşmak ve yerinde keşif planlamak için sizinle iletişime geçelim.</p>
           <form id="contact-form">
             <div class="form-row">
               <div class="field">
@@ -69,10 +71,11 @@
             <div class="field">
               <label for="service" data-i18n="contact.form.serviceLabel">Neye ihtiyacınız var?</label>
               <select id="service" name="service">
-                <option value="Özel Kapı" data-i18n="contact.form.opt1">Özel Kapı</option>
-                <option value="Ölçüye Özel Dolap" data-i18n="contact.form.opt2">Ölçüye Özel Dolap</option>
-                <option value="Restorasyon" data-i18n="contact.form.opt3">Restorasyon</option>
-                <option value="Henüz Emin Değilim" data-i18n="contact.form.opt4">Henüz Emin Değilim</option>
+                <option value="Kapı" data-i18n="contact.form.opt1">Kapı</option>
+                <option value="Dolap / Mobilya" data-i18n="contact.form.opt2">Dolap / Mobilya</option>
+                <option value="Merdiven, Kamelya veya Diğer" data-i18n="contact.form.opt3">Merdiven, Kamelya veya Diğer</option>
+                <option value="Restorasyon" data-i18n="contact.form.opt4">Restorasyon</option>
+                <option value="Henüz Emin Değilim" data-i18n="contact.form.opt5">Henüz Emin Değilim</option>
               </select>
             </div>
             <div class="field">
@@ -89,21 +92,28 @@
             <div class="icon">📍</div>
             <div>
               <h3 data-i18n="contact.info.addressTitle">Atölye Adresi</h3>
-              <p data-i18n="contact.info.addressText">Bartın, Türkiye — sokak adresinizi buraya ekleyin.</p>
+              <p data-i18n="contact.info.addressText">Gölbucağı Mah. Yeni Sanayi Sitesi, 129 Nolu Sok. No:12, 74000 Bartın</p>
             </div>
           </div>
           <div class="info-card">
             <div class="icon">📞</div>
             <div>
               <h3 data-i18n="contact.info.phoneTitle">Telefon</h3>
-              <p><a href="tel:+900000000000">+90 000 000 00 00</a></p>
+              <p><a href="tel:+903782273534">(0378) 227 35 34</a></p>
             </div>
           </div>
           <div class="info-card">
             <div class="icon">✉️</div>
             <div>
               <h3 data-i18n="contact.info.emailTitle">E-posta</h3>
-              <p><a href="mailto:info@ozturkdograma.com">info@ozturkdograma.com</a></p>
+              <p><a href="mailto:iozturkdograma@gmail.com">iozturkdograma@gmail.com</a></p>
+            </div>
+          </div>
+          <div class="info-card">
+            <div class="icon">📷</div>
+            <div>
+              <h3 data-i18n="contact.info.instagramTitle">Instagram</h3>
+              <p><a href="https://instagram.com/iozturkdograma" target="_blank" rel="noopener">@iozturkdograma</a></p>
             </div>
           </div>
           <div class="info-card">
@@ -115,7 +125,16 @@
           </div>
 
           <div style="margin-top: 24px;">
-            <div class="map-placeholder" data-i18n="contact.info.mapText">📍 Harita / Konum</div>
+            <div class="map-placeholder" style="padding:0; overflow:hidden;">
+              <iframe
+                title="Öztürk Doğrama - Google Haritada Konum"
+                src="https://www.google.com/maps?q=G%C3%B6lbuca%C4%9F%C4%B1%20Mah.%20Yeni%20Sanayi%20Sitesi%2C%20129%20Nolu%20Sok.%20No%3A12%2C%2074000%20Bart%C4%B1n%2C%20T%C3%BCrkiye&output=embed"
+                style="width:100%; height:100%; border:0;"
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade">
+              </iframe>
+            </div>
+            <a href="https://www.google.com/maps/search/?api=1&query=G%C3%B6lbuca%C4%9F%C4%B1%20Mah.%20Yeni%20Sanayi%20Sitesi%2C%20129%20Nolu%20Sok.%20No%3A12%2C%2074000%20Bart%C4%B1n%2C%20T%C3%BCrkiye" target="_blank" rel="noopener" class="btn btn-secondary btn-block" style="margin-top:14px;" data-i18n="contact.info.mapLink">Haritada Aç</a>
           </div>
         </div>
 
@@ -129,8 +148,8 @@
   <div class="container">
     <div class="footer-grid">
       <div>
-        <a href="index.html" class="logo"><span class="logo-mark">Ö</span> Öztürk Doğrama</a>
-        <p data-i18n="common.footer.tagline">Bartın'daki atölyemizde elle üretilen, özenle monte edilen ahşap kapı ve dolaplar.</p>
+        <a href="index.html" class="logo"><img src="logo-icon.png" alt="Öztürk Doğrama" class="logo-mark"> Öztürk Doğrama</a>
+        <p data-i18n="common.footer.tagline">Bartın'daki atölyemizde elle üretilen, özenle monte edilen ahşap kapı, dolap ve daha fazlası.</p>
       </div>
       <div class="footer-col">
         <h4 data-i18n="common.footer.siteHeading">Site</h4>
@@ -142,22 +161,20 @@
       <div class="footer-col">
         <h4 data-i18n="common.footer.productsHeading">Ürünler</h4>
         <a href="products.html" data-i18n="common.footer.doors">Özel Kapılar</a>
-        <a href="products.html" data-i18n="common.footer.cupboards">Ölçüye Özel Dolaplar</a>
-        <a href="products.html" data-i18n="common.footer.restoration">Restorasyon</a>
+        <a href="products.html" data-i18n="common.footer.cupboards">Dolaplar & Mobilyalar</a>
+        <a href="products.html" data-i18n="common.footer.restoration">Diğer Özel Üretimler</a>
       </div>
       <div class="footer-col">
         <h4 data-i18n="common.footer.contactHeading">İletişim</h4>
-        <a href="tel:+900000000000">+90 000 000 00 00</a>
-        <a href="mailto:info@ozturkdograma.com">info@ozturkdograma.com</a>
+        <a href="tel:+903782273534">(0378) 227 35 34</a>
+        <a href="mailto:iozturkdograma@gmail.com">iozturkdograma@gmail.com</a>
         <a href="contact.html" data-i18n="common.footer.addressLink">Atölye adresi →</a>
       </div>
     </div>
     <div class="footer-bottom">
       <span data-i18n="common.footer.rights">© 2026 Öztürk Doğrama. Tüm hakları saklıdır.</span>
       <div class="social-row">
-        <a href="#" aria-label="Instagram">IG</a>
-        <a href="#" aria-label="Facebook">FB</a>
-        <a href="#" aria-label="WhatsApp">WA</a>
+        <a href="https://instagram.com/iozturkdograma" target="_blank" rel="noopener" aria-label="Instagram">IG</a>
       </div>
     </div>
   </div>

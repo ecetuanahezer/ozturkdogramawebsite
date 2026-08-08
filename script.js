@@ -104,7 +104,7 @@ document.addEventListener('DOMContentLoaded', function () {
         'Message:\n' + message
       );
 
-      window.location.href = 'mailto:info@ozturkdograma.com?subject=' + subject + '&body=' + body;
+      window.location.href = 'mailto:iozturkdograma@gmail.com?subject=' + subject + '&body=' + body;
     });
   }
 });
