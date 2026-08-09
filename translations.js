@@ -29,7 +29,7 @@ var TRANSLATIONS = {
         lead: "Öztürk Doğrama; gerçek ahşabı, dürüst işçiliği ve zamanla güzelleşen bir görünümü tercih eden evler için özel kapı, dolap ve ahşap işlerini elde tasarlayıp üretir.",
         cta1: "Bize Ulaşın",
         cta2: "Çalışmalarımızı İnceleyin",
-        meta2: "Masif ahşap · Ölçüye özel üretim · Yerinde ücretsiz keşif",
+        meta2: "Masif ahşap · Ölçüye özel üretim · Yerinde keşif",
         chip1: "🔨 El işçiliği doğrama",
         chip2: "🌳 Sadece masif ahşap",
         tagTitle: "Öne Çıkan: Özel Ahşap Kapı",
@@ -49,7 +49,7 @@ var TRANSLATIONS = {
         card1: { title: "Özel Kapılar", desc: "İç mekan ve giriş kapılarınız için masif ahşaptan özel üretim." },
         card2: { title: "Dolaplar & Mobilyalar", desc: "Mutfak, gardırop, giyinme odası ve çalışma masası gibi ölçüye özel üretimler." },
         card3: { title: "Ahşap Yapılar", desc: "Merdiven, kamelya, asma tavan ve sundurma gibi özel ahşap uygulamaları." },
-        card4: { title: "Ücretsiz Keşif", desc: "Karar vermeden önce yerinde ölçüm ve tasarım danışmanlığı." }
+        card4: { title: "Yerinde Keşif", desc: "Karar vermeden önce yerinde ölçüm ve tasarım danışmanlığı." }
       },
       process: {
         eyebrow: "Çalışma Sürecimiz",
@@ -89,7 +89,7 @@ var TRANSLATIONS = {
       hero: {
         eyebrow: "Ürünlerimiz",
         h1: "Mekanınıza özel kapı, dolap ve ahşap işleri",
-        p: "Aşağıdaki tüm ürünler masif ahşaptan ölçüye özel üretilir. Ahşap türü, renk ve donanım ücretsiz keşif sırasında birlikte belirlenir."
+        p: "Aşağıdaki tüm ürünler masif ahşaptan ölçüye özel üretilir. Ahşap türü, renk ve donanım keşif sırasında birlikte belirlenir."
       },
       doorsSection: { eyebrow: "Kapılar", h2: "İç mekan ve giriş kapıları" },
       doors: {
@@ -141,8 +141,8 @@ var TRANSLATIONS = {
       },
       values: {
         eyebrow: "İnandığımız Değerler",
-        h2: "Kısayol değil, ustalık",
-        v1: { title: "Her Zaman Masif Ahşap", desc: "MDF yok, kaplama kısayolu yok. Her parça masif ahşaptan üretilir." },
+        h2: "Her parçada emek, her detayda özen",
+        v1: { title: "En Kaliteli Malzemeler", desc: "İhtiyacınıza göre masif ahşap veya en kaliteli MDF ile çalışırız." },
         v2: { title: "Elle Birleştirilen Doğrama", desc: "Onlarca yıl dayanacak parçalar için gerektiğinde geleneksel birleşim teknikleri." },
         v3: { title: "Ölçüye Özel Üretim", desc: "Her proje yerinde ölçümle başlar — asla standart ölçü kullanılmaz." },
         v4: { title: "Dürüst Fiyatlandırma", desc: "İşe başlamadan önce net bir teklif. Teslimatta sürpriz maliyet yok." },
@@ -151,7 +151,7 @@ var TRANSLATIONS = {
       },
       why: {
         eyebrow: "Neden Biz",
-        h2: "İki kez ölçer, montajı da biz yaparız",
+        h2: "Tasarımdan montaja, hep aynı ekip",
         p1: "Büyük doğrama tedarikçilerinin aksine, ürününüzü tasarlayan kişi çoğu zaman onu üreten ve monte eden kişiyle aynıdır. Bu da daha az iletişim hatası, daha az ölçüm sorunu ve size gösterilenle birebir örtüşen bir sonuç demektir.",
         p2: "Atölyemizi bilinçli olarak küçük tutuyoruz — ciddi projelerin altından kalkacak kadar büyük, her parçaya gerçek özen gösterecek kadar küçük."
       },
@@ -172,7 +172,6 @@ var TRANSLATIONS = {
         p: "İhtiyacınızı kısaca anlatın, genellikle bir iş günü içinde size dönüş yapalım."
       },
       form: {
-        heading: "Proje Talebinizi Gönderin",
         sub: "Formu doldurun, projenizi konuşmak ve yerinde keşif planlamak için sizinle iletişime geçelim.",
         nameLabel: "Ad Soyad",
         namePh: "Adınız",
@@ -230,7 +229,7 @@ var TRANSLATIONS = {
         lead: "Öztürk Doğrama designs and hand-builds custom doors, cupboards, and woodwork for homes that want real wood, honest craftsmanship, and a finish that gets better with age.",
         cta1: "Contact Us",
         cta2: "View Our Work",
-        meta2: "Solid timber · Made to measure · Free on-site consultation",
+        meta2: "Solid timber · Made to measure · On-site consultation",
         chip1: "🔨 Handmade joinery",
         chip2: "🌳 Solid timber only",
         tagTitle: "Featured: Custom Wood Door",
@@ -250,7 +249,7 @@ var TRANSLATIONS = {
         card1: { title: "Custom Doors", desc: "Interior and entrance doors built from solid timber to your exact opening." },
         card2: { title: "Cupboards & Furniture", desc: "Kitchen, wardrobe, dressing room, and desk pieces made to measure." },
         card3: { title: "Wood Structures", desc: "Staircases, gazebos, suspended ceilings, and porch structures, custom built." },
-        card4: { title: "Free Consultation", desc: "On-site measuring and design advice before you commit to anything." }
+        card4: { title: "On-Site Consultation", desc: "On-site measuring and design advice before you commit to anything." }
       },
       process: {
         eyebrow: "Our Process",
@@ -290,7 +289,7 @@ var TRANSLATIONS = {
       hero: {
         eyebrow: "Our Products",
         h1: "Doors, cupboards, and woodwork, built around your space",
-        p: "Every piece below is made to measure in solid timber. Wood type, stain, and hardware are all chosen with you during the free consultation."
+        p: "Every piece below is made to measure in solid timber. Wood type, stain, and hardware are all chosen with you during the consultation."
       },
       doorsSection: { eyebrow: "Doors", h2: "Interior & entrance doors" },
       doors: {
@@ -342,8 +341,8 @@ var TRANSLATIONS = {
       },
       values: {
         eyebrow: "What We Believe",
-        h2: "Craftsmanship over shortcuts",
-        v1: { title: "Solid Wood, Always", desc: "No MDF, no veneer shortcuts. Every piece is built from solid timber." },
+        h2: "Effort in every piece, care in every detail",
+        v1: { title: "The Best Materials", desc: "We work with solid wood or the highest quality MDF, depending on what your project needs." },
         v2: { title: "Hand-Fitted Joinery", desc: "Traditional joints where they matter, for pieces that hold up for decades." },
         v3: { title: "Made to Measure", desc: "Every project starts with an on-site measurement — never a generic size." },
         v4: { title: "Honest Pricing", desc: "One clear quote before work begins. No surprise costs at delivery." },
@@ -352,7 +351,7 @@ var TRANSLATIONS = {
       },
       why: {
         eyebrow: "Why Choose Us",
-        h2: "We measure twice, and we're the ones who install it too",
+        h2: "From design to installation, always the same team",
         p1: "Unlike large joinery suppliers, the person who designs your piece is often the same person who builds and installs it. That means fewer miscommunications, fewer measuring errors, and a finished product that actually matches what you were shown.",
         p2: "We keep our workshop small on purpose — enough to take on serious projects, small enough that every piece still gets real attention."
       },
@@ -373,7 +372,6 @@ var TRANSLATIONS = {
         p: "Tell us a little about what you need and we'll get back to you with next steps — usually within one business day."
       },
       form: {
-        heading: "Send Your Project Request",
         sub: "Fill out the form and we'll reach out to discuss your project and schedule an on-site visit.",
         nameLabel: "Full Name",
         namePh: "Your name",
