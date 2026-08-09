@@ -41,49 +41,13 @@
     <div class="container">
       <div class="eyebrow" data-i18n="contact.hero.eyebrow">İletişim</div>
       <h1 data-i18n="contact.hero.h1">Projeniz hakkında konuşalım</h1>
-      <p data-i18n="contact.hero.p">İhtiyacınızı kısaca anlatın, genellikle bir iş günü içinde size dönüş yapalım.</p>
+      <p data-i18n="contact.hero.p">Telefon, e-posta veya Instagram üzerinden bize ulaşabilir, dilerseniz atölyemizi ziyaret edebilirsiniz.</p>
     </div>
   </section>
 
   <section>
     <div class="container">
-      <div class="grid-2" style="align-items: start; grid-template-columns: 1fr 1fr;">
-
-        <!-- FORM -->
-        <div class="form-card">
-          <p style="font-size: 0.9rem; margin-bottom: 24px;" data-i18n="contact.form.sub">Formu doldurun, projenizi konuşmak ve yerinde keşif planlamak için sizinle iletişime geçelim.</p>
-          <form id="contact-form">
-            <div class="form-row">
-              <div class="field">
-                <label for="name" data-i18n="contact.form.nameLabel">Ad Soyad</label>
-                <input type="text" id="name" name="name" placeholder="Adınız" data-i18n-placeholder="contact.form.namePh" required>
-              </div>
-              <div class="field">
-                <label for="phone" data-i18n="contact.form.phoneLabel">Telefon</label>
-                <input type="tel" id="phone" name="phone" placeholder="+90 5xx xxx xx xx" data-i18n-placeholder="contact.form.phonePh">
-              </div>
-            </div>
-            <div class="field">
-              <label for="email" data-i18n="contact.form.emailLabel">E-posta</label>
-              <input type="email" id="email" name="email" placeholder="eposta@ornek.com" data-i18n-placeholder="contact.form.emailPh" required>
-            </div>
-            <div class="field">
-              <label for="service" data-i18n="contact.form.serviceLabel">Neye ihtiyacınız var?</label>
-              <select id="service" name="service">
-                <option value="Kapı" data-i18n="contact.form.opt1">Kapı</option>
-                <option value="Dolap / Mobilya" data-i18n="contact.form.opt2">Dolap / Mobilya</option>
-                <option value="Merdiven, Kamelya veya Diğer" data-i18n="contact.form.opt3">Merdiven, Kamelya veya Diğer</option>
-                <option value="Restorasyon" data-i18n="contact.form.opt4">Restorasyon</option>
-                <option value="Henüz Emin Değilim" data-i18n="contact.form.opt5">Henüz Emin Değilim</option>
-              </select>
-            </div>
-            <div class="field">
-              <label for="message" data-i18n="contact.form.messageLabel">Mekanınızdan bahsedin</label>
-              <textarea id="message" name="message" placeholder="Oda ölçüsü, ahşap tercihi, zamanlama vb." data-i18n-placeholder="contact.form.messagePh"></textarea>
-            </div>
-            <button type="submit" class="btn btn-primary btn-block" data-i18n="contact.form.submit">Talebi Gönder</button>
-          </form>
-        </div>
+      <div class="grid-2" style="align-items: start;">
 
         <!-- INFO -->
         <div>
@@ -122,19 +86,20 @@
               <p data-i18n="contact.info.hoursText">Pazartesi – Cumartesi, 09:00 – 18:00</p>
             </div>
           </div>
+        </div>
 
-          <div style="margin-top: 24px;">
-            <div class="map-placeholder" style="padding:0; overflow:hidden;">
-              <iframe
-                title="Öztürk Doğrama - Google Haritada Konum"
-                src="https://www.google.com/maps?q=G%C3%B6lbuca%C4%9F%C4%B1%20Mah.%20Yeni%20Sanayi%20Sitesi%2C%20129%20Nolu%20Sok.%20No%3A12%2C%2074000%20Bart%C4%B1n%2C%20T%C3%BCrkiye&output=embed"
-                style="width:100%; height:100%; border:0;"
-                loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade">
-              </iframe>
-            </div>
-            <a href="https://www.google.com/maps/search/?api=1&query=G%C3%B6lbuca%C4%9F%C4%B1%20Mah.%20Yeni%20Sanayi%20Sitesi%2C%20129%20Nolu%20Sok.%20No%3A12%2C%2074000%20Bart%C4%B1n%2C%20T%C3%BCrkiye" target="_blank" rel="noopener" class="btn btn-secondary btn-block" style="margin-top:14px;" data-i18n="contact.info.mapLink">Haritada Aç</a>
+        <!-- MAP -->
+        <div>
+          <div class="map-placeholder" style="padding:0; overflow:hidden; aspect-ratio:4/5;">
+            <iframe
+              title="Öztürk Doğrama - Google Haritada Konum"
+              src="https://www.google.com/maps?q=G%C3%B6lbuca%C4%9F%C4%B1%20Mah.%20Yeni%20Sanayi%20Sitesi%2C%20129%20Nolu%20Sok.%20No%3A12%2C%2074000%20Bart%C4%B1n%2C%20T%C3%BCrkiye&output=embed"
+              style="width:100%; height:100%; border:0;"
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
           </div>
+          <a href="https://www.google.com/maps/search/?api=1&query=G%C3%B6lbuca%C4%9F%C4%B1%20Mah.%20Yeni%20Sanayi%20Sitesi%2C%20129%20Nolu%20Sok.%20No%3A12%2C%2074000%20Bart%C4%B1n%2C%20T%C3%BCrkiye" target="_blank" rel="noopener" class="btn btn-secondary btn-block" style="margin-top:14px;" data-i18n="contact.info.mapLink">Haritada Aç</a>
         </div>
 
       </div>

@@ -164,30 +164,12 @@ var TRANSLATIONS = {
     contact: {
       meta: {
         title: "İletişim | Öztürk Doğrama",
-        desc: "Bartın merkezli Öztürk Doğrama'ya özel ahşap kapı, dolap ve daha fazlası için ulaşın. Telefon, e-posta veya formla bize yazın."
+        desc: "Bartın merkezli Öztürk Doğrama'ya özel ahşap kapı, dolap ve daha fazlası için ulaşın. Telefon, e-posta veya Instagram üzerinden bize yazın."
       },
       hero: {
         eyebrow: "İletişim",
         h1: "Projeniz hakkında konuşalım",
-        p: "İhtiyacınızı kısaca anlatın, genellikle bir iş günü içinde size dönüş yapalım."
-      },
-      form: {
-        sub: "Formu doldurun, projenizi konuşmak ve yerinde keşif planlamak için sizinle iletişime geçelim.",
-        nameLabel: "Ad Soyad",
-        namePh: "Adınız",
-        phoneLabel: "Telefon",
-        phonePh: "+90 5xx xxx xx xx",
-        emailLabel: "E-posta",
-        emailPh: "eposta@ornek.com",
-        serviceLabel: "Neye ihtiyacınız var?",
-        opt1: "Kapı",
-        opt2: "Dolap / Mobilya",
-        opt3: "Merdiven, Kamelya veya Diğer",
-        opt4: "Restorasyon",
-        opt5: "Henüz Emin Değilim",
-        messageLabel: "Mekanınızdan bahsedin",
-        messagePh: "Oda ölçüsü, ahşap tercihi, zamanlama vb.",
-        submit: "Talebi Gönder"
+        p: "Telefon, e-posta veya Instagram üzerinden bize ulaşabilir, dilerseniz atölyemizi ziyaret edebilirsiniz."
       },
       info: {
         addressTitle: "Atölye Adresi",
@@ -364,30 +346,12 @@ var TRANSLATIONS = {
     contact: {
       meta: {
         title: "Contact | Öztürk Doğrama",
-        desc: "Reach Öztürk Doğrama, based in Bartın, Türkiye, for custom wooden doors, cupboards, and more. Contact our workshop by phone, email, or the form below."
+        desc: "Reach Öztürk Doğrama, based in Bartın, Türkiye, for custom wooden doors, cupboards, and more. Contact our workshop by phone, email, or Instagram."
       },
       hero: {
         eyebrow: "Contact",
         h1: "Let's talk about your project",
-        p: "Tell us a little about what you need and we'll get back to you with next steps — usually within one business day."
-      },
-      form: {
-        sub: "Fill out the form and we'll reach out to discuss your project and schedule an on-site visit.",
-        nameLabel: "Full Name",
-        namePh: "Your name",
-        phoneLabel: "Phone",
-        phonePh: "+90 5xx xxx xx xx",
-        emailLabel: "Email",
-        emailPh: "you@email.com",
-        serviceLabel: "What do you need?",
-        opt1: "Door",
-        opt2: "Cupboard / Furniture",
-        opt3: "Staircase, Gazebo, or Other",
-        opt4: "Restoration",
-        opt5: "Not Sure Yet",
-        messageLabel: "Tell us about your space",
-        messagePh: "Room size, wood preference, timeline, etc.",
-        submit: "Send Request"
+        p: "Reach us by phone, email, or Instagram, or come visit our workshop."
       },
       info: {
         addressTitle: "Workshop Address",
