@@ -37,10 +37,11 @@ var TRANSLATIONS = {
       },
       stats: {
         value3: "%100",
+        value4: "Garantili",
         label1: "Yıllık Ustalık",
         label2: "Tamamlanan Proje",
         label3: "Masif Ahşap Malzeme",
-        label4: "Ortalama Müşteri Puanı"
+        label4: "Müşteri Memnuniyeti"
       },
       features: {
         eyebrow: "Ne Yapıyoruz",
@@ -106,14 +107,26 @@ var TRANSLATIONS = {
         c5: { title: "Merdiven Altı Depolama", desc: "Kullanılmayan veya zor alanları en iyi şekilde değerlendiren özel dolaplar.", tag1: "Koridor", tag2: "Yer Tasarrufu" },
         c6: { title: "Dolap Restorasyonu", desc: "Mevcut dolaplarınızın kapak, donanım ve cilasını yeniliyoruz.", tag1: "Onarım", tag2: "Yenileme" },
         c7: { title: "Çalışma Masaları", desc: "Ev ofisi veya çalışma odanız için ölçüye özel ahşap masalar.", tag1: "Ofis", tag2: "Özel Ölçü" },
-        c8: { title: "Giyinme Odaları", desc: "Baştan sona ölçüye özel tasarlanan giyinme odası dolapları ve düzenleri.", tag1: "Yatak Odası", tag2: "Baştan Sona Özel" }
+        c8: { title: "Giyinme Odaları", desc: "Baştan sona ölçüye özel tasarlanan giyinme odası dolapları ve düzenleri.", tag1: "Yatak Odası", tag2: "Baştan Sona Özel" },
+        c9: { title: "Kalorifer Dolabı", desc: "Kaloriferlerinizi gizleyen, ısı geçirgen özel tasarım ahşap dolaplar.", tag1: "Isıtma", tag2: "Özel Ölçü" },
+        c10: { title: "Gömme Dolap", desc: "Duvar boşluğuna tam oturan, yer kaplamayan gömme dolap çözümleri.", tag1: "Yer Tasarrufu", tag2: "Özel Ölçü" },
+        c11: { title: "Komodin", desc: "Yatak odası ve oturma odaları için ölçüye özel çekmeceli komodinler.", tag1: "Yatak Odası", tag2: "Özel Ölçü" },
+        c12: { title: "Mutfak Masası ve Sandalyeler", desc: "Mutfağınıza uygun ölçü ve renkte özel üretim masa ve sandalye takımları.", tag1: "Mutfak", tag2: "Özel Ölçü" }
       },
       otherSection: { eyebrow: "Diğer Özel Üretimler", h2: "Ahşap yapılar ve dış mekan işleri" },
       other: {
         o1: { title: "Ahşap Merdiven", desc: "İç veya dış mekanlar için sağlam, özel tasarım ahşap merdivenler.", tag1: "İç / Dış Mekan", tag2: "Özel Tasarım" },
         o2: { title: "Kamelya", desc: "Bahçeniz için oturma ve dinlenme alanı olarak tasarlanmış ahşap kamelyalar.", tag1: "Bahçe", tag2: "Özel Ölçü" },
         o3: { title: "Asma Tavan", desc: "İç mekanlarınıza sıcaklık katan ahşap asma tavan uygulamaları.", tag1: "İç Mekan", tag2: "Dekoratif" },
-        o4: { title: "Sundurma", desc: "Araç veya oturma alanları için ahşap sundurma ve gölgelik yapıları.", tag1: "Dış Mekan", tag2: "Özel Tasarım" }
+        o4: { title: "Sundurma", desc: "Araç veya oturma alanları için ahşap sundurma ve gölgelik yapıları.", tag1: "Dış Mekan", tag2: "Özel Tasarım" },
+        o5: { title: "Cami Kürsüsü", desc: "Cami ve mescitler için özel tasarım ahşap kürsü ve minber çalışmaları.", tag1: "Kurumsal", tag2: "Özel Tasarım" },
+        o6: { title: "Pervaz", desc: "Kapı ve pencereleriniz için şık, özel kesim ahşap pervazlar.", tag1: "İç Mekan", tag2: "Özel Kesim" },
+        o7: { title: "Ahşap Paravan", desc: "Mekan ayırma ve dekorasyon amaçlı özel desenli ahşap paravanlar.", tag1: "İç Mekan", tag2: "Özel Tasarım" }
+      },
+      smallGoodsSection: { eyebrow: "Küçük Ahşap Ürünler", h2: "El yapımı ahşap ev eşyaları" },
+      smallGoods: {
+        s1: { title: "Ahşap Tepsi", desc: "Günlük kullanım veya hediyelik için el yapımı ahşap tepsiler.", tag1: "El Yapımı", tag2: "Hediyelik" },
+        s2: { title: "Ahşap Yoga Blokları", desc: "Dayanıklı, pürüzsüz yüzeyli masif ahşap yoga blokları.", tag1: "El Yapımı", tag2: "Masif Ahşap" }
       },
       cta: {
         h2: "Aradığınızı tam olarak bulamadınız mı?",
@@ -219,10 +232,11 @@ var TRANSLATIONS = {
       },
       stats: {
         value3: "100%",
+        value4: "Guaranteed",
         label1: "Years of craftsmanship",
         label2: "Projects completed",
         label3: "Solid wood materials",
-        label4: "Average client rating"
+        label4: "Customer Satisfaction"
       },
       features: {
         eyebrow: "What We Do",
@@ -288,14 +302,26 @@ var TRANSLATIONS = {
         c5: { title: "Under-Stair Storage", desc: "Custom cupboards that make full use of awkward or unused spaces.", tag1: "Hallway", tag2: "Space-saving" },
         c6: { title: "Cupboard Restoration", desc: "Refresh doors, hardware, and finish on existing fitted cupboards.", tag1: "Repair", tag2: "Refinishing" },
         c7: { title: "Desks & Worktables", desc: "Made-to-measure wooden desks for your home office or study.", tag1: "Office", tag2: "Custom size" },
-        c8: { title: "Dressing Rooms", desc: "Fully custom-designed dressing room cabinetry and layouts.", tag1: "Bedroom", tag2: "Fully Custom" }
+        c8: { title: "Dressing Rooms", desc: "Fully custom-designed dressing room cabinetry and layouts.", tag1: "Bedroom", tag2: "Fully Custom" },
+        c9: { title: "Radiator Cabinets", desc: "Custom wooden cabinets that conceal radiators while letting heat through.", tag1: "Heating", tag2: "Custom size" },
+        c10: { title: "Built-In Wardrobes", desc: "Recessed wardrobe solutions that fit flush into a wall niche without taking up floor space.", tag1: "Space-saving", tag2: "Custom size" },
+        c11: { title: "Chest of Drawers", desc: "Made-to-measure chests of drawers for the bedroom or living room.", tag1: "Bedroom", tag2: "Custom size" },
+        c12: { title: "Kitchen Table & Chairs", desc: "Custom-built table and chair sets sized and finished to match your kitchen.", tag1: "Kitchen", tag2: "Custom size" }
       },
       otherSection: { eyebrow: "Other Custom Work", h2: "Wood structures & outdoor work" },
       other: {
         o1: { title: "Wooden Staircases", desc: "Sturdy, custom-designed wooden staircases for indoors or outdoors.", tag1: "Interior / Exterior", tag2: "Custom Design" },
         o2: { title: "Garden Gazebos", desc: "Wooden garden gazebos designed as a place to sit and unwind.", tag1: "Garden", tag2: "Custom size" },
         o3: { title: "Suspended Ceilings", desc: "Wooden suspended ceiling work that brings warmth to any room.", tag1: "Interior", tag2: "Decorative" },
-        o4: { title: "Porch Roofs", desc: "Wooden porch and carport roof structures for cars or seating areas.", tag1: "Exterior", tag2: "Custom Design" }
+        o4: { title: "Porch Roofs", desc: "Wooden porch and carport roof structures for cars or seating areas.", tag1: "Exterior", tag2: "Custom Design" },
+        o5: { title: "Mosque Pulpits", desc: "Custom wooden pulpit and minbar work for mosques and prayer rooms.", tag1: "Institutional", tag2: "Custom Design" },
+        o6: { title: "Trim & Molding", desc: "Elegant, custom-cut wooden trim for your doors and windows.", tag1: "Interior", tag2: "Custom Cut" },
+        o7: { title: "Wooden Room Dividers", desc: "Custom-patterned wooden screens for room division and decor.", tag1: "Interior", tag2: "Custom Design" }
+      },
+      smallGoodsSection: { eyebrow: "Small Wooden Products", h2: "Handmade wooden home goods" },
+      smallGoods: {
+        s1: { title: "Wooden Trays", desc: "Handmade wooden trays for everyday use or as a gift.", tag1: "Handmade", tag2: "Gift" },
+        s2: { title: "Wooden Yoga Blocks", desc: "Sturdy, smooth-finished solid wood yoga blocks.", tag1: "Handmade", tag2: "Solid Wood" }
       },
       cta: {
         h2: "Don't see exactly what you need?",
