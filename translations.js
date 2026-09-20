@@ -95,8 +95,7 @@ var TRANSLATIONS = {
       doorsSection: { eyebrow: "Kapılar", h2: "İç mekan ve giriş kapıları" },
       doors: {
         d1: { title: "İç Mekan Kapıları", desc: "Evinizin iç mekanları için ölçüye özel, masif ahşap kapılar.", tag1: "İç Mekan", tag2: "Özel Ölçü" },
-        d2: { title: "Giriş Kapıları", desc: "Dış hava koşullarına dayanıklı, sağlam ve şık masif giriş kapıları.", tag1: "Dış Mekan", tag2: "Dayanıklı" },
-        d3: { title: "Kapı Restorasyonu", desc: "Mevcut ahşap kapılarınızı söker, onarır ve sağlam haline geri döndürürüz.", tag1: "Onarım", tag2: "Yenileme" }
+        d2: { title: "Giriş Kapıları", desc: "Dış hava koşullarına dayanıklı, sağlam ve şık masif giriş kapıları.", tag1: "Dış Mekan", tag2: "Dayanıklı" }
       },
       cupboardsSection: { eyebrow: "Dolaplar & Mobilyalar", h2: "Ölçüye özel dolap ve mobilya" },
       cupboards: {
@@ -105,7 +104,6 @@ var TRANSLATIONS = {
         c3: { title: "Kitaplık ve Raf Sistemleri", desc: "Odanıza uyumlu ahşap ve cila seçenekleriyle sabit ya da bağımsız raf sistemleri.", tag1: "Oturma Odası", tag2: "Sabit" },
         c4: { title: "Banyo Dolapları", desc: "Islak hacimler için nem önleyici işlemli lavabo dolabı ve depolama üniteleri.", tag1: "Banyo", tag2: "Nem Önleyici İşlemli" },
         c5: { title: "Merdiven Altı Depolama", desc: "Kullanılmayan veya zor alanları en iyi şekilde değerlendiren özel dolaplar.", tag1: "Koridor", tag2: "Yer Tasarrufu" },
-        c6: { title: "Dolap Restorasyonu", desc: "Mevcut dolaplarınızın kapak, donanım ve cilasını yeniliyoruz.", tag1: "Onarım", tag2: "Yenileme" },
         c7: { title: "Çalışma Masaları", desc: "Ev ofisi veya çalışma odanız için ölçüye özel ahşap masalar.", tag1: "Ofis", tag2: "Özel Ölçü" },
         c8: { title: "Giyinme Odaları", desc: "Baştan sona ölçüye özel tasarlanan giyinme odası dolapları ve düzenleri.", tag1: "Yatak Odası", tag2: "Baştan Sona Özel" },
         c9: { title: "Kalorifer Dolabı", desc: "Kaloriferlerinizi gizleyen, ısı geçirgen özel tasarım ahşap dolaplar.", tag1: "Isıtma", tag2: "Özel Ölçü" },
@@ -119,7 +117,7 @@ var TRANSLATIONS = {
         o2: { title: "Kamelya", desc: "Bahçeniz için oturma ve dinlenme alanı olarak tasarlanmış ahşap kamelyalar.", tag1: "Bahçe", tag2: "Özel Ölçü" },
         o3: { title: "Asma Tavan", desc: "İç mekanlarınıza sıcaklık katan ahşap asma tavan uygulamaları.", tag1: "İç Mekan", tag2: "Dekoratif" },
         o4: { title: "Sundurma", desc: "Araç veya oturma alanları için ahşap sundurma ve gölgelik yapıları.", tag1: "Dış Mekan", tag2: "Özel Tasarım" },
-        o5: { title: "Cami Kürsüsü", desc: "Cami ve mescitler için özel tasarım ahşap kürsü ve minber çalışmaları.", tag1: "Kurumsal", tag2: "Özel Tasarım" },
+        o5: { title: "Cami Mobilyaları", desc: "Cami ve mescitler için minber, kürsü ve kapı gibi özel tasarım ahşap mobilyalar.", tag1: "Kurumsal", tag2: "Özel Tasarım" },
         o6: { title: "Pervaz", desc: "Kapı ve pencereleriniz için şık, özel kesim ahşap pervazlar.", tag1: "İç Mekan", tag2: "Özel Kesim" },
         o7: { title: "Ahşap Paravan", desc: "Mekan ayırma ve dekorasyon amaçlı özel desenli ahşap paravanlar.", tag1: "İç Mekan", tag2: "Özel Tasarım" }
       },
@@ -290,8 +288,7 @@ var TRANSLATIONS = {
       doorsSection: { eyebrow: "Doors", h2: "Interior & entrance doors" },
       doors: {
         d1: { title: "Interior Doors", desc: "Custom, made-to-measure solid wood doors for the interior of your home.", tag1: "Interior", tag2: "Custom size" },
-        d2: { title: "Entrance Doors", desc: "Weather-resistant, sturdy, and stylish solid entrance doors.", tag1: "Exterior", tag2: "Durable" },
-        d3: { title: "Door Restoration", desc: "Strip, repair, and refinish existing wooden doors back to solid condition.", tag1: "Repair", tag2: "Refinishing" }
+        d2: { title: "Entrance Doors", desc: "Weather-resistant, sturdy, and stylish solid entrance doors.", tag1: "Exterior", tag2: "Durable" }
       },
       cupboardsSection: { eyebrow: "Cupboards & Furniture", h2: "Fitted cupboards & custom furniture" },
       cupboards: {
@@ -300,7 +297,6 @@ var TRANSLATIONS = {
         c3: { title: "Bookcases & Shelving", desc: "Built-in or freestanding shelving in a wood and finish to match your room.", tag1: "Living room", tag2: "Built-in" },
         c4: { title: "Bathroom Cabinets", desc: "Moisture-treated vanity units and storage built for wet rooms.", tag1: "Bathroom", tag2: "Moisture-treated" },
         c5: { title: "Under-Stair Storage", desc: "Custom cupboards that make full use of awkward or unused spaces.", tag1: "Hallway", tag2: "Space-saving" },
-        c6: { title: "Cupboard Restoration", desc: "Refresh doors, hardware, and finish on existing fitted cupboards.", tag1: "Repair", tag2: "Refinishing" },
         c7: { title: "Desks & Worktables", desc: "Made-to-measure wooden desks for your home office or study.", tag1: "Office", tag2: "Custom size" },
         c8: { title: "Dressing Rooms", desc: "Fully custom-designed dressing room cabinetry and layouts.", tag1: "Bedroom", tag2: "Fully Custom" },
         c9: { title: "Radiator Cabinets", desc: "Custom wooden cabinets that conceal radiators while letting heat through.", tag1: "Heating", tag2: "Custom size" },
@@ -314,7 +310,7 @@ var TRANSLATIONS = {
         o2: { title: "Garden Gazebos", desc: "Wooden garden gazebos designed as a place to sit and unwind.", tag1: "Garden", tag2: "Custom size" },
         o3: { title: "Suspended Ceilings", desc: "Wooden suspended ceiling work that brings warmth to any room.", tag1: "Interior", tag2: "Decorative" },
         o4: { title: "Porch Roofs", desc: "Wooden porch and carport roof structures for cars or seating areas.", tag1: "Exterior", tag2: "Custom Design" },
-        o5: { title: "Mosque Pulpits", desc: "Custom wooden pulpit and minbar work for mosques and prayer rooms.", tag1: "Institutional", tag2: "Custom Design" },
+        o5: { title: "Mosque Furniture", desc: "Custom wooden furniture for mosques and prayer rooms, including pulpits, minbars, and doors.", tag1: "Institutional", tag2: "Custom Design" },
         o6: { title: "Trim & Molding", desc: "Elegant, custom-cut wooden trim for your doors and windows.", tag1: "Interior", tag2: "Custom Cut" },
         o7: { title: "Wooden Room Dividers", desc: "Custom-patterned wooden screens for room division and decor.", tag1: "Interior", tag2: "Custom Design" }
       },
