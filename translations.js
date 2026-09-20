@@ -30,8 +30,6 @@ var TRANSLATIONS = {
         cta1: "Bize Ulaşın",
         cta2: "Çalışmalarımızı İnceleyin",
         meta2: "Masif ahşap · Ölçüye özel üretim · Yerinde keşif",
-        chip1: "🔨 El işçiliği doğrama",
-        chip2: "🌳 Sadece masif ahşap",
         tagTitle: "Öne Çıkan: Özel Ahşap Kapı",
         tagSub: "Ölçüye özel · Doğal yağ cila"
       },
@@ -73,7 +71,7 @@ var TRANSLATIONS = {
         eyebrow: "Müşteri Yorumları",
         h2: "Ahşaba değer veren ev sahiplerinin güvendiği marka",
         t1: { text: "\"Mutfak dolaplarımız teklif sonrası birkaç gün içinde ölçülüp monte edildi. İşçilik kusursuz.\"", name: "Elif K.", role: "Mutfak dolabı" },
-        t2: { text: "\"Masif meşe bir giriş kapısı istedik ve tam istediğimiz gibi aldık — ağır, sıcak ve sağlam işçilikli.\"", name: "Mehmet A.", role: "Giriş kapısı" },
+        t2: { text: "\"Masif meşe bir giriş kapısı istedik ve tam istediğimiz gibi aldık.\"", name: "Mehmet A.", role: "Giriş kapısı" },
         t3: { text: "\"İlk ziyaretten kuruluma kadar tamamen profesyoneldi. Adil fiyatlandırma ve dürüst zaman planlaması.\"", name: "Selin T.", role: "Gardırop montajı" }
       },
       cta: {
@@ -223,8 +221,6 @@ var TRANSLATIONS = {
         cta1: "Contact Us",
         cta2: "View Our Work",
         meta2: "Solid timber · Made to measure · On-site consultation",
-        chip1: "🔨 Handmade joinery",
-        chip2: "🌳 Solid timber only",
         tagTitle: "Featured: Custom Wood Door",
         tagSub: "Custom-fit · Natural oil finish"
       },
@@ -266,7 +262,7 @@ var TRANSLATIONS = {
         eyebrow: "Client Words",
         h2: "Trusted by homeowners who care about wood",
         t1: { text: "\"Our kitchen cupboards were measured and installed within days of the quote. The joinery is flawless.\"", name: "Elif K.", role: "Kitchen cupboards" },
-        t2: { text: "\"We wanted a solid oak front door and got exactly that — heavy, warm, and built properly.\"", name: "Mehmet A.", role: "Entrance door" },
+        t2: { text: "\"We wanted a solid oak front door and got exactly that.\"", name: "Mehmet A.", role: "Entrance door" },
         t3: { text: "\"Professional from the first visit to install. Fair pricing and honest timelines throughout.\"", name: "Selin T.", role: "Wardrobe fitting" }
       },
       cta: {
